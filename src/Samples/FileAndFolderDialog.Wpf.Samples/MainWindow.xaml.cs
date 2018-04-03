@@ -25,10 +25,23 @@ namespace FileAndFolderDialog.Wpf.Samples
             InitializeComponent();
         }
 
+
         private void SelectFileButton_Click(object sender, RoutedEventArgs e)
         {
+
+            //this is just a sample so don't go hatin' on my failure to use an IoC container and that i'm not using a ViewModel to ViewModel Navigation Model
             var vm = new ViewModels.SelectFileDialogExampleViewModel(new FileAndFolderDialog.Wpf.FileDialogService());
             var w = new Views.SelectFileDialogExampleView();
+            w.DataContext = vm;
+            w.ShowDialog();
+        }
+
+        private void SaveFileButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            //this is just a sample so don't go hatin' on my failure to use an IoC container and that i'm not using a ViewModel to ViewModel Navigation Model
+            var vm = new ViewModels.SaveFileDialogExampleViewModel(new FileAndFolderDialog.Wpf.FileDialogService());
+            var w = new Views.SaveFileDialogExampleView();
             w.DataContext = vm;
             w.ShowDialog();
         }

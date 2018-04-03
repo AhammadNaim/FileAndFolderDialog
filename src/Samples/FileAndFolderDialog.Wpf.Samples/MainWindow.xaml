@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <Button x:Name="SelectFileButton" Width="150" Content="Select File Dialog Sample" Click="SelectFileButton_Click"/>
+        <Button x:Name="SelectFileButton" Width="150" Margin="10" Content="Select File Dialog Sample" Click="SelectFileButton_Click"/>
+        <Button x:Name="SaveFileButton" Width="150" Margin="10" Content="Save File Dialog Sample" Click="SaveFileButton_Click"/>
     </StackPanel>
 </Window>
