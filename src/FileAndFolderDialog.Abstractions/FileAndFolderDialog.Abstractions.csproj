@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Tim Burris</Authors>
+    <Description>Abstrations for the windows Choose/Save file and folder dialogs;  purpose is abstract the raising of those dialogs so their functionality can be injected into the classes that need them.  You can elect to implement the abstractions yourself or use an existing implementation (e.g. FileAndFolderDialog.Wpf)</Description>
+    <PackageLicenseUrl>https://github.com/DumpsterNinja/FileAndFolderDialog/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/DumpsterNinja/FileAndFolderDialog</PackageProjectUrl>
+    <PackageTags>mvvm;file;dialog;save;open</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
