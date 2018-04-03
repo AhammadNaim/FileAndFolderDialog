@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAndFolderDialog.Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndFolderDialog.Wpf", "FileAndFolderDialog.Wpf\FileAndFolderDialog.Wpf.csproj", "{CB0C0931-7F98-45B2-AC31-0F1234D7C06B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{0260F8DB-5FEA-4AAD-9184-550DB60EBD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAndFolderDialog.Wpf.Samples", "Samples\FileAndFolderDialog.Wpf.Samples\FileAndFolderDialog.Wpf.Samples.csproj", "{026B1598-D66B-439F-A3DE-F78672473711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
