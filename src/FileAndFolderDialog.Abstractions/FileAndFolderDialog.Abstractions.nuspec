@@ -9,7 +9,7 @@
     <licenseUrl>https://github.com/DumpsterNinja/FileAndFolderDialog/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/DumpsterNinja/FileAndFolderDialog</projectUrl>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Abstrations for the windows Choose/Save file and folder dialogs;  purpose is abstract the raising of those dialogs so their functionality can be injected into the classes that need them.  You can elect to implement the abstractions yourself or use an existing implementation (e.g. FileAndFolderDialog.Wpf)</description>
+    <description>Abstrations for the windows Choose/Save file and folder dialogs;  purpose is to abstract the raising of those dialogs so their functionality can be injected into the classes that need them as well as making testing those calls easier.  You can elect to implement the abstractions yourself or use an existing implementation (e.g. FileAndFolderDialog.Wpf)</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>file folder dialog savefile openfile abstractions relaycommand viewmodel</tags>

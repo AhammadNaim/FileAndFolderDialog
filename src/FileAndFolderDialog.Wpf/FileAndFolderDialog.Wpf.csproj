@@ -53,5 +53,8 @@
       <Name>FileAndFolderDialog.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="FileAndFolderDialog.Wpf.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
