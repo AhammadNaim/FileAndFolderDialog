@@ -75,10 +75,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ViewModels\MainViewModel.cs" />
-    <Compile Include="ViewModels\SaveFileDialogExampleViewModel - Copy.cs" />
+    <Compile Include="ViewModels\SaveFileDialogExampleViewModel.cs" />
+    <Compile Include="ViewModels\SelectFolderDialogExampleViewModel.cs" />
     <Compile Include="ViewModels\SelectFileDialogExampleViewModel.cs" />
     <Compile Include="Views\SaveFileDialogExampleView.xaml.cs">
       <DependentUpon>SaveFileDialogExampleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SelectFolderDialogExampleView.xaml.cs">
+      <DependentUpon>SelectFolderDialogExampleView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SelectFileDialogExampleView.xaml.cs">
       <DependentUpon>SelectFileDialogExampleView.xaml</DependentUpon>
@@ -96,6 +100,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\SaveFileDialogExampleView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SelectFolderDialogExampleView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

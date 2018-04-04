@@ -18,8 +18,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\FileAndFolderDialog.Abstractions.dll" target="lib\net471\FileAndFolderDialog.Abstractions.dll" />
-	<file src="bin\Release\FileAndFolderDialog.Abstractions.xml" target="lib\net471\FileAndFolderDialog.Abstractions.xml" />
+    <file src="bin\Release\FileAndFolderDialog.Abstractions.dll" target="lib\netstandard2.0\FileAndFolderDialog.Abstractions.dll" />
+	<file src="bin\Release\FileAndFolderDialog.Abstractions.xml" target="lib\netstandard2.0\FileAndFolderDialog.Abstractions.xml" />
 </files>
 
 </package>

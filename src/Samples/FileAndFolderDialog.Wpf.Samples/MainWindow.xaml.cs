@@ -45,5 +45,14 @@ namespace FileAndFolderDialog.Wpf.Samples
             w.DataContext = vm;
             w.ShowDialog();
         }
+
+        private void SelectFolderButton_Click(object sender, RoutedEventArgs e)
+        {
+            //this is just a sample so don't go hatin' on my failure to use an IoC container and that i'm not using a ViewModel to ViewModel Navigation Model
+            var vm = new ViewModels.SelectFolderDialogExampleViewModel(new FileAndFolderDialog.Wpf.FolderDialogService());
+            var w = new Views.SelectFolderDialogExampleView();
+            w.DataContext = vm;
+            w.ShowDialog();
+        }
     }
 }
