@@ -30,6 +30,7 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
+                    <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Label Grid.Column="0" Grid.Row="0" Content="Title"/>
                 <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Title}"/>
@@ -43,8 +44,11 @@
                 <Label Grid.Column="0" Grid.Row="3" Content="File Index"/>
                 <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding FilterIndex}"/>
 
-                <Label Grid.Column="0" Grid.Row="4" Content="Default Extension"/>
-                <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding DefaultExt}" />
+                <Label Grid.Column="0" Grid.Row="4" Content="Default FileName"/>
+                <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding DefaultFileName}" />
+                
+                <Label Grid.Column="0" Grid.Row="5" Content="Default Extension"/>
+                <TextBox Grid.Column="1" Grid.Row="5" Text="{Binding DefaultExt}" />
             </Grid>
             <Separator Margin="10"/>
             <Button Content="Choose File(s)" Command="{Binding ChooseFileCommand}" Width="150"/>

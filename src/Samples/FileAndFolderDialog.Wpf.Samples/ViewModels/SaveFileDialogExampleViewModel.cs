@@ -31,8 +31,16 @@ namespace FileAndFolderDialog.Wpf.Samples.ViewModels
             this.CreatePrompt = options.CreatePrompt;
             this.Title = options.Title;
             this.ValidateNames = options.ValidateNames;
+            this.DefaultFileName = options.DefaultFileName;
 
             this.CustomPlaces = new ObservableCollection<string>();
+        }
+
+
+        public string DefaultFileName
+        {
+            get { return GetField<string>(); }
+            set { SetField(value); }
         }
 
         public bool OverwritePrompt
@@ -153,6 +161,7 @@ namespace FileAndFolderDialog.Wpf.Samples.ViewModels
                     RestoreDirectory = this.RestoreDirectory,
                     Title = this.Title,
                     ValidateNames = this.ValidateNames,
+                    DefaultFileName = this.DefaultFileName,
                 };
 
                 this.CustomPlaces

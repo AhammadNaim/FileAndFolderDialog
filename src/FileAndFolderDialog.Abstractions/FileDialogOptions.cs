@@ -25,6 +25,11 @@ namespace FileAndFolderDialog.Abstractions
         ///</summary>
         public bool ValidateNames { get; set; } = true;
 
+        /// <summary>
+        /// Gets or sets a value indicating the Default name of the file that should be selected
+        /// </summary>
+        public string DefaultFileName { get; set; }
+
         ///<summary>
         ///     Gets or sets the file dialog box title.
         /// Returns:

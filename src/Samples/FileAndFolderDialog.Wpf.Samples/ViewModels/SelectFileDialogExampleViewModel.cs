@@ -32,8 +32,15 @@ namespace FileAndFolderDialog.Wpf.Samples.ViewModels
             this.ShowReadOnly = options.ShowReadOnly;
             this.Title = options.Title;
             this.ValidateNames = options.ValidateNames;
+            this.DefaultFileName = options.DefaultFileName;
 
             this.CustomPlaces = new ObservableCollection<string>();
+        }
+
+        public string DefaultFileName
+        {
+            get { return GetField<string>(); }
+            set { SetField(value); }
         }
 
         public bool Multiselect
@@ -161,6 +168,7 @@ namespace FileAndFolderDialog.Wpf.Samples.ViewModels
                     ShowReadOnly = this.ShowReadOnly,
                     Title = this.Title,
                     ValidateNames = this.ValidateNames,
+                    DefaultFileName = this.DefaultFileName,
                 };
 
                 this.CustomPlaces

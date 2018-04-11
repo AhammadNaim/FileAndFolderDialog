@@ -29,7 +29,7 @@ namespace FileAndFolderDialog.Wpf
             openFileDialog.ShowReadOnly = options.ShowReadOnly;
             openFileDialog.Title = options.Title;
             openFileDialog.ValidateNames = options.ValidateNames;
-
+            openFileDialog.FileName = options.DefaultFileName;
             openFileDialog.CustomPlaces = options.CustomPlaces?
                 .Select(path => new Microsoft.Win32.FileDialogCustomPlace(path))
                 .ToList();
@@ -59,6 +59,7 @@ namespace FileAndFolderDialog.Wpf
             saveFileDialog.RestoreDirectory = options.RestoreDirectory;
             saveFileDialog.Title = options.Title;
             saveFileDialog.ValidateNames = options.ValidateNames;
+            saveFileDialog.FileName = options.DefaultFileName;
 
             saveFileDialog.CustomPlaces = options.CustomPlaces?
                 .Select(path => new Microsoft.Win32.FileDialogCustomPlace(path))
