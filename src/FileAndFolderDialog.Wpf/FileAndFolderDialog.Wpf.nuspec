@@ -14,7 +14,7 @@
     <copyright>Copyright 2018</copyright>
     <tags>file folder dialog savefile openfile wpf relaycommand viewmodel</tags>
 	<dependencies>
-        <dependency id="FileAndFolderDialog.Abstractions" version="1.0.0" />		
+        <dependency id="FileAndFolderDialog.Abstractions" version="1.0.1" />		
     </dependencies>
   </metadata>
   <files>
